@@ -323,11 +323,19 @@ st.markdown("""
         background: #1e293b;
         padding: 1.5rem;
         border-radius: 10px;
-        color: white;
+       color: #1a365d; /* Aquí cambiamos el blanco por azul marino */
         border-bottom: 4px solid #fbbf24;
         margin-bottom: 2rem;
     }
-    .main-header h1 { margin: 0; font-size: 1.8rem; }
+
+    /* --- AGREGA ESTO JUSTO AQUÍ PARA EL CHAT --- */
+    [data-testid="stChatMessage"] p {
+        color: #1a365d !important;
+    }
+    
+    .stApp {
+        color: #1a365d;
+    }
 </style>
 """, unsafe_allow_html=True)
 
