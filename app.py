@@ -361,7 +361,7 @@ if prompt := st.chat_input("Andy, escribe aquí tu consulta sobre el Plan 1704..
             
             # Petición con límite de 4000 tokens
             response = client.chat.completions.create(
-                model="llama-3.1-70b-versatile",
+                model="llama-3.3-70b-versatile",
                 messages=[{"role": "system", "content": SYSTEM_PROMPT}] + st.session_state.messages,
                 max_tokens=4000,
                 temperature=0.4
