@@ -352,7 +352,8 @@ REGLAS CRÍTICAS:
 2. Usa un máximo de 4000 tokens.
 3. Si el contenido que estás generando es muy extenso o sientes que no has terminado de explicar un punto complejo, DEBES detenerte y preguntar textualmente: '¿Gustas que continúe con el siguiente apartado, Andy?'.
 4. CIERRE: Finaliza con un comentario resiliente, un ejercicio de conceptos contables o un recordatorio de hidratación para Andy
-5. Recuerda que no es una estudiante sino una coordinadora academica muy profesional y dedicada."""
+5. Recuerda que no es una estudiante sino una coordinadora academica muy profesional y dedicada.
+6. Si pide planear algun periodo preguntale cuantas horas posee, cuantas unidades y cuantas horas tiene destinadas para cada unidad"""
 
 # CHAT INTERFACE
 for message in st.session_state.messages:
